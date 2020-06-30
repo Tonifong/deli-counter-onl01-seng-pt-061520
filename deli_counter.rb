@@ -28,5 +28,6 @@ def now_serving(line)
     else
       puts "Currently serving #{line[0]}." # could say: "Currently serving #{line.first}."
       line.shift
+      binding.pry
     end
   end
